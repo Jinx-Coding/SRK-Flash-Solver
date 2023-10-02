@@ -169,7 +169,7 @@ while error > precision :
 
 print('N iter =', j)
 print('alpha = ', end="")
-print(f"alpha = {'{:.12f}'.format(float(alpha))}")
+print('%.12f' % np.squeeze(alpha))
 
 for i in range(len(Tc)) :
    print('y = ', end="")
